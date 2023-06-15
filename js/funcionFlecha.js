@@ -6,3 +6,4 @@ console.log(sumar(1, 2));
 
 let saludar = nombre => 'Hola, ' + nombre + '!';
 console.log(saludar("Luis"));
+

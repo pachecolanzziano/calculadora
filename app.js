@@ -6,7 +6,7 @@ switch (accion) {
   case 'listar':
     let listaTareas = archivo.leerArchivo();
     for (let index = 0; index < listaTareas.length; index++) {
-      console.log(`${index+1}. ${listaTareas[index].titulo} - ${listaTareas[index].descripcion}`); 
+      console.log(`${index+1}. ${listaTareas[index].titulo} - ${listaTareas[index].estado}`); 
       
     }
     break;
